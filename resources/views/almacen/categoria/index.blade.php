@@ -71,7 +71,7 @@
                                     @endforeach
                                 </tbody>
                             </table>
-                            {{ $categoria->links() }}
+                            {{ $categoria->links('pagination::bootstrap-4') }}
                         </div>
                     </div>
                 </div>
