@@ -21,7 +21,7 @@
                     </div>
                     <div class="card-footer">
                         <button type="submit" class="btn btn-success me-1 mb-1">Editar</button>
-                        <button type="reset" class="btn btn-danger me-1 mb-1">Cancelar</button>
+                        <a href="{{ route('categoria.index') }}" class="btn btn-danger me-1 mb-1">Cancelar</a>
                     </div>
                 </div>
             </form>
